@@ -9,7 +9,7 @@ spec:
   lifecycle: experimental # Change to match your project
   owner: guests # Change to match your project
   system: examples # Change to match your project
-  definition: | ---
+  definition: |
 openapi: 3.0.0
 info:
   version: 1.0.0
