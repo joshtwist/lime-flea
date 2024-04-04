@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: My Zuplo API
   annotations:
-    github.com/project-slug: joshtwist/lime-flea # Your github project slug Ex. org/repo-name
+    github.com/project-slug: joshtwist-lime-flea # Your github project slug Ex. org/repo-name
 spec:
   type: openapi
   lifecycle: experimental # Change to match your project
