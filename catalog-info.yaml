@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: My Zuplo API
+  name: my-zuplo-api
   annotations:
-    github.com/project-slug: joshtwist-lime-flea # Your github project slug Ex. org/repo-name
+    github.com/project-slug: JoshTwist/lime-flea
 spec:
   type: openapi
-  lifecycle: experimental # Change to match your project
-  owner: guests # Change to match your project
-  system: examples # Change to match your project
+  lifecycle: experimental
+  owner: guests
+  system: examples
   definition:
     $text: https://lime-flea-main-52c1659.d2.zuplo.dev/openapi
